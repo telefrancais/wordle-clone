@@ -18,7 +18,7 @@ const GameMessage = ({ text, type = 'info' }) => {
   }
 
   return (
-    <div className={`h-12 mt-2 px-6 py-3 ${getBackgroundColour()} text-white rounded-md shadow-lg text-center text-xl`}>
+    <div className={`mt-2 px-6 py-3 ${getBackgroundColour()} text-white rounded-md shadow-lg text-center text-xl`}>
       {text}
     </div>
   )
