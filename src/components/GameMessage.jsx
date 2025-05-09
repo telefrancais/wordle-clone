@@ -1,6 +1,6 @@
 import React from 'react'
 
-const GameMessage = ({ text, type = 'info' }) => {
+const GameMessage = ({ text, type = 'default' }) => {
   if (!text) return <div className="h-12"></div>
 
   // sets the background colour based on the type of message
