@@ -113,8 +113,8 @@ function App() {
   }
 
   return (
-    <div className='flex flex-col items-center min-h-screen bg-sky-900 p-7'>
-      <h1 className='text-6xl justify-center font-mono font-bold tracking-wider mb-8 text-blue-500'>WORDLE</h1>
+    <div className='flex flex-col items-center font-mono min-h-screen bg-sky-900 p-7'>
+      <h1 className='text-6xl justify-center font-bold tracking-wider mb-8 text-blue-500'>WORDLE</h1>
 
       <GameBoard
         guesses={guesses}
@@ -130,7 +130,7 @@ function App() {
 
       {gameState !== 'playing' && (
         <button
-          className='mt-8 px-4 py-2 bg-blue-500 font-mono text-white rounded hover:bg-blue-600'
+          className='mt-8 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600'
           onClick={resetGame}
         >
           Play Again
